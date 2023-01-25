@@ -1,0 +1,15 @@
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/clr/" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+  <SOAP-ENV:Body>
+    <a1:Hanger id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/LP_Lab13/LP_Lab13%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+      <_nameOfHanger id="ref-2">Alena</_nameOfHanger>
+      <_nameOfFabricator id="ref-3">Belarus</_nameOfFabricator>
+      <_price>500</_price>
+      <_dateOfManufacture>20192021</_dateOfManufacture>
+      <Furniture_x002B__nameOfFabricator href="#ref-3" />
+      <Furniture_x002B__price>500</Furniture_x002B__price>
+      <Furniture_x002B__dateOfManufacture>20192021</Furniture_x002B__dateOfManufacture>
+      <Product_x002B__price>500</Product_x002B__price>
+      <Product_x002B__dateOfManufacture>20192021</Product_x002B__dateOfManufacture>
+    </a1:Hanger>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

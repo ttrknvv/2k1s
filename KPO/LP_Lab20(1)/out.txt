@@ -1,0 +1,195 @@
+integer function fi ( integer x , integer y ) | | | { | declare integer z ; | z = x * ( x + y ) ; | return z ; | } ; | string function fs ( string a , string b ) | { | declare string c ; | declare string function substr ( string a , integer p , | integer n ) ; | c = substr ( a , 1 , 3 ) + b ; | return c ; | } ; | main | { | declare integer x ; | declare integer y ; | declare integer z ; | declare string sa ; | declare string sb ; | declare string sc ; | declare integer strlen ( string p ) ; | x = 1 ; | y = 5 ; | sa = '1234567890' ; | sb = '1234567890' ; | z = fi ( x , y ) ; | sc = fs ( sa , sb ) ; | print 'контр      пример' ; | print z ; | print sc ; | print strlen ( sc ) ; | return 0 ; | } ; 
+
+tfi(ti,ti){dti;i=iv(ivi);ri;};tfi(ti,ti){dti;dtfi(ti,ti,ti);i=i(i,l,l)vi;ri;};m{dti;dti;dti;dti;dti;dti;dti(ti);i=l;i=l;i=l;i=l;i=i(i,i);i=i(i,i);pl;pi;pi;pi(i);rl;};
+
+Лексема ------ Номер строки ------ Индекс
+0    t              0             -1
+1    f              0             -1
+2    i              0              0
+3    (              0             -1
+4    t              0             -1
+5    i              0              1
+6    ,              0             -1
+7    t              0             -1
+8    i              0              2
+9    )              0             -1
+10    {              3             -1
+11    d              4             -1
+12    t              4             -1
+13    i              4              3
+14    ;              4             -1
+15    i              5              3
+16    =              5             -1
+17    i              5              1
+18    v              5             -1
+19    (              5             -1
+20    i              5              1
+21    v              5             -1
+22    i              5              2
+23    )              5             -1
+24    ;              5             -1
+25    r              6             -1
+26    i              6              3
+27    ;              6             -1
+28    }              7             -1
+29    ;              7             -1
+30    t              8             -1
+31    f              8             -1
+32    i              8              4
+33    (              8             -1
+34    t              8             -1
+35    i              8              5
+36    ,              8             -1
+37    t              8             -1
+38    i              8              6
+39    )              8             -1
+40    {              9             -1
+41    d             10             -1
+42    t             10             -1
+43    i             10              7
+44    ;             10             -1
+45    d             11             -1
+46    t             11             -1
+47    f             11             -1
+48    i             11              8
+49    (             11             -1
+50    t             11             -1
+51    i             11              5
+52    ,             11             -1
+53    t             11             -1
+54    i             11              8
+55    ,             11             -1
+56    t             12             -1
+57    i             12              9
+58    )             12             -1
+59    ;             12             -1
+60    i             13              7
+61    =             13             -1
+62    i             13             10
+63    (             13             -1
+64    i             13              5
+65    ,             13             -1
+66    l             13             10
+67    ,             13             -1
+68    l             13             11
+69    )             13             -1
+70    v             13             -1
+71    i             13              6
+72    ;             13             -1
+73    r             14             -1
+74    i             14              7
+75    ;             14             -1
+76    }             15             -1
+77    ;             15             -1
+78    m             16             -1
+79    {             17             -1
+80    d             18             -1
+81    t             18             -1
+82    i             18             12
+83    ;             18             -1
+84    d             19             -1
+85    t             19             -1
+86    i             19             13
+87    ;             19             -1
+88    d             20             -1
+89    t             20             -1
+90    i             20             14
+91    ;             20             -1
+92    d             21             -1
+93    t             21             -1
+94    i             21             15
+95    ;             21             -1
+96    d             22             -1
+97    t             22             -1
+98    i             22             16
+99    ;             22             -1
+100    d             23             -1
+101    t             23             -1
+102    i             23             17
+103    ;             23             -1
+104    d             24             -1
+105    t             24             -1
+106    i             24             18
+107    (             24             -1
+108    t             24             -1
+109    i             24             18
+110    )             24             -1
+111    ;             24             -1
+112    i             25             12
+113    =             25             -1
+114    l             25             10
+115    ;             25             -1
+116    i             26             13
+117    =             26             -1
+118    l             26             19
+119    ;             26             -1
+120    i             27             15
+121    =             27             -1
+122    l             27             20
+123    ;             27             -1
+124    i             28             16
+125    =             28             -1
+126    l             28             20
+127    ;             28             -1
+128    i             29             14
+129    =             29             -1
+130    i             29              0
+131    (             29             -1
+132    i             29             12
+133    ,             29             -1
+134    i             29             13
+135    )             29             -1
+136    ;             29             -1
+137    i             30             17
+138    =             30             -1
+139    i             30              4
+140    (             30             -1
+141    i             30             15
+142    ,             30             -1
+143    i             30             16
+144    )             30             -1
+145    ;             30             -1
+146    p             31             -1
+147    l             31             21
+148    ;             31             -1
+149    p             32             -1
+150    i             32             14
+151    ;             32             -1
+152    p             33             -1
+153    i             33             17
+154    ;             33             -1
+155    p             34             -1
+156    i             34             22
+157    (             34             -1
+158    i             34             17
+159    )             34             -1
+160    ;             34             -1
+161    r             35             -1
+162    l             35             22
+163    ;             35             -1
+164    }             36             -1
+165    ;             36             -1
+Идентификатор ------  Тип данных  ------ Тип идентиф. ------ Значение ------ Индекс в таблице лексем ------ Имя функции
+0      fi                 INT               FUNCTION              0                 2                            fi
+1       x                 INT               PARAMETR              0                 5                            fi
+2       y                 INT               PARAMETR              0                 8                            fi
+3       z                 INT               VARIABLE              0                13                            fi
+4      fs                 STR               FUNCTION              0                32                            fs
+5       a                 STR               PARAMETR              0                35                            fs
+6       b                 STR               PARAMETR              0                38                            fs
+7       c                 STR               VARIABLE              0                43                            fs
+8       p                 INT               PARAMETR              0                54                            fs
+9       n                 INT               PARAMETR              0                57                            fs
+10      L0                 INT                LITERAL              1                66
+11      L1                 INT                LITERAL              3                68
+12       x                 INT               VARIABLE              0                82                          main
+13       y                 INT               VARIABLE              0                86                          main
+14       z                 INT               VARIABLE              0                90                          main
+15      sa                 STR               VARIABLE              0                94                          main
+16      sb                 STR               VARIABLE              0                98                          main
+17      sc                 STR               VARIABLE              0               102                          main
+18       p                 STR               PARAMETR              0               109                          main
+19      L2                 INT                LITERAL              5               118
+20      L3                 STR                LITERAL          1234567890          122
+21      L4                 STR                LITERAL   контр      пример          147
+22      L5                 INT                LITERAL              0               162
