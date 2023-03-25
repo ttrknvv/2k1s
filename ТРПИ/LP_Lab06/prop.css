@@ -1,0 +1,45 @@
+
+.header {
+    text-align: center;
+}
+.list {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    font-size: 20px;
+}
+.list div {
+    width: 350px;
+    height:auto;
+    padding-top: 40px;
+    text-align: center;
+    border-radius: 40px;
+    margin-bottom: 20px;
+}
+.list div img {
+    height: 200px;
+}
+.name, .money {
+    width: 250px;
+    text-align: center;
+}
+div img {
+    width: 250px;
+    align-self: center;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+button {
+    font-size: 20px;
+    border-radius: 20px;
+    border: none;
+    margin-bottom: 10px;
+}
+div p {
+   margin-left: 50px;
+}
+
