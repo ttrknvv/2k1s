@@ -1,0 +1,8 @@
+Здесь указана информация о классе: LP_Lab11.RandomClass
+a) Имя сборки: LP_Lab11, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+b) Наличие публичных конструктуров: True
+c) Все публичные методы: get_MyPropertyPublic myPublicMethod MethodInterface ExampleDouble GetType ToString Equals GetHashCode 
+d1) Все поля класса: _myFieldPrivate _myFieldPublic 
+d2) Все свойства класса: MyPropertyPrivate MyPropertyPublic 
+e) Все интерфейсы класса: MyInterface 
+f) Имена методов класса LP_Lab11.RandomClass с параметров типа Double: ExampleDouble

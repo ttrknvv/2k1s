@@ -1,0 +1,12 @@
+{
+	'Product' : 'Bed',
+	'Count' : '25',
+	'NameOfFabricator' : 'Germany',
+	'NameOfBed' : 'Alesya'
+}
+{
+	'Product' : 'Curbstone',
+	'Count' : '28',
+	'NameOfFabricator' : 'Poland',
+	'NameOfBed' : 'Nikita'
+}
